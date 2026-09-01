@@ -1,7 +1,5 @@
 # BlockJail — Compfest CTF 2026
 
-This is a beginner-friendly writeup for the **BlockJail** blockchain challenge. It assumes only a basic understanding of Ethereum transactions and Solidity.
-
 ## Flag
 
 ```text
