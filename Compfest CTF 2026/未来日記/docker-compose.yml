@@ -1,0 +1,13 @@
+services:
+  mirai-nikki:
+    build: .
+    restart: always
+    ports:
+      - 3100:1337
+    privileged: true
+    read_only: true
+    deploy:
+      resources:
+        limits:
+          cpus: '0.25'
+          memory: 256M
