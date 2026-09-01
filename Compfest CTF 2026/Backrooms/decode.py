@@ -79,9 +79,9 @@ def main() -> None:
         pattern = glyph_pattern(rows, glyph)
         character = GLYPHS.get(pattern, "?")
         decoded.append(character)
-        print(f"glyph {glyph:02}: {pattern} -> {character}")
+        print(f"glyph {glyph:02}: {pattern}")
 
-    print(f"decoded: {''.join(decoded)}")
+    print("decoded token: <omitted>")
 
 
 if __name__ == "__main__":

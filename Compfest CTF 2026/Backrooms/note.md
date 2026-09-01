@@ -2,7 +2,7 @@
 
 **Category:** Reverse engineering
 
-**Flag:** `COMPFEST18{HE_IS_20_YEARS_OLD}`
+The flag is intentionally omitted from this repository.
 
 ## Files
 
@@ -120,11 +120,7 @@ The first glyphs decode as `C`, `O`, `M`, `P`, `F`, `E`, `S`, `T`, `1`, `8`, and
 H E _ I S _ 2 0 _ Y E A R S _ O L D }
 ```
 
-Joining them gives the flag:
-
-```text
-COMPFEST18{HE_IS_20_YEARS_OLD}
-```
+Joining the glyphs gives the flag; the token itself is intentionally omitted from this repository.
 
 ## Reproduction
 
@@ -134,4 +130,4 @@ From this directory, run:
 python3 decode.py
 ```
 
-The script prints the transformed bytes, the 4×120 canvas, each 3×4 glyph, and the final decoded flag.
+The script prints the transformed bytes, the 4×120 canvas, and each 3×4 glyph. It intentionally does not print the final token.
